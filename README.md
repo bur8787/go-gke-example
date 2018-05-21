@@ -15,6 +15,7 @@ $ go get github.com/bur8787/go-gke-example
 ## Generate Code
 
 ```
+$ brew install protobuf
 $ sh protoc-gen-go.sh
 ```
 
