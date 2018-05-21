@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Product {
+  rpc PostProduct (ProductRequest) returns (ProductReply) {}
+}
+
+message ProductRequest {
+  string name = 1;
+}
+
+message ProductReply {
+  string message = 1;
+}
